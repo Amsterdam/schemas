@@ -1,0 +1,68 @@
+{
+  "type": "dataset",
+  "id": "blackspots",
+  "title": "blackspots",
+  "status": "beschikbaar",
+  "description": "Blackspots",
+  "version": "0.0.1",
+  "crs": "EPSG:28992",
+  "tables": [
+    {
+      "id": "blackspots",
+      "type": "table",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "schema",
+          "id",
+          "locatie id",
+          "spot type",
+          "geometry",
+          "stadsdeel",
+          "status"
+        ],
+        "display": "id",
+        "properties": {
+          "schema": {
+            "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "locatie id": {
+            "type": "string"
+          },
+          "spot type": {
+            "type": "string"
+          },
+          "geometry": {
+            "$ref": "https://geojson.org/schema/Point.json"
+          },
+          "stadsdeel": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "start uitvoering": {
+            "type": "string"
+          },
+          "eind uitvoering": {
+            "type": "string"
+          },
+          "jaar blackspotlijst": {
+            "type": "integer"
+          },
+          "jaar ongeval quickscan": {
+            "type": "integer"
+          },
+          "jaar oplevering": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  ]
+}
