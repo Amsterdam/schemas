@@ -23,7 +23,7 @@
           "id": {
             "type": "integer"
           },
-          "wkb geometry": {
+          "geometry": {
             "$ref": "https://geojson.org/schema/Geometry.json"
           },
           "gebcode": {
