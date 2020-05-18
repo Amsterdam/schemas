@@ -35,13 +35,22 @@
             "type": "string"
           },
           "spot type": {
-            "type": "string"
+            "type": "string",
+
+            "enum": ["protocol ernstig", "blackspot", "risico", "protocol dodelijk", "wegvak"]
           },
           "geometry": {
             "$ref": "https://geojson.org/schema/Point.json"
           },
           "stadsdeel": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "voorbereiding",
+              "onderzoek ontwerp",
+              "geen maatregel",
+              "gereed",
+              "uitvoering"
+            ]
           },
           "status": {
             "type": "string"
@@ -53,13 +62,16 @@
             "type": "string"
           },
           "jaar blackspotlijst": {
-            "type": "integer"
+            "type": "integer",
+            "unit": "a_g"
           },
           "jaar ongeval quickscan": {
-            "type": "integer"
+            "type": "integer",
+            "unit": "a_g"
           },
           "jaar oplevering": {
-            "type": "integer"
+            "type": "integer",
+            "unit": "a_g"
           }
         }
       }
