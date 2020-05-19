@@ -48,7 +48,7 @@
             "type": "number",
             "description": ""
           },
-          "geom": {
+          "geometry": {
             "$ref": "https://geojson.org/schema/Polygon.json"
           },
           "regimes": {
