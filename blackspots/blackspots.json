@@ -4,7 +4,7 @@
   "title": "blackspots",
   "status": "beschikbaar",
   "description": "Blackspots",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "crs": "EPSG:28992",
   "tables": [
     {
