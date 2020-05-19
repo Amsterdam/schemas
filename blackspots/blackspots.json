@@ -56,9 +56,17 @@
             "type": "string"
           },
           "start uitvoering": {
-            "type": "string"
+            "type": "string",
+            "format": "date"
           },
           "eind uitvoering": {
+            "type": "string",
+            "format": "date"
+          },
+          "start opmerking": {
+            "type": "string"
+          },
+          "eind opmerking": {
             "type": "string"
           },
           "jaar blackspotlijst": {
