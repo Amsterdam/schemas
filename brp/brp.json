@@ -6,7 +6,7 @@
   "description": "Deze dataset maakt de basisregistratie personen toegankelijk, bij gebruik van login credentials.",
   "version": "0.0.1",
   "crs": "EPSG:28992",
-  "auth: "BRP/R",
+  "auth": "BRP/R",
   "tables": [
     {
       "id": "ingeschrevenpersonen",
