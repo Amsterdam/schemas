@@ -6,7 +6,7 @@
   "description": "Blackspots",
   "auth": "FP/MDW",
   "version": "0.0.2",
-  "crs": "EPSG:28992",
+  "crs": "EPSG:4326",
   "tables": [
     {
       "id": "blackspots",
