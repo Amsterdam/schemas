@@ -4,6 +4,7 @@
   "title": "blackspots",
   "status": "beschikbaar",
   "description": "Blackspots",
+  "auth": "FP/MDW",
   "version": "0.0.2",
   "crs": "EPSG:28992",
   "tables": [
