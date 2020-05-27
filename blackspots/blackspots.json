@@ -44,6 +44,9 @@
             "$ref": "https://geojson.org/schema/Point.json"
           },
           "stadsdeel": {
+            "type": "string"
+          },
+          "status": {
             "type": "string",
             "enum": [
               "voorbereiding",
@@ -52,9 +55,6 @@
               "gereed",
               "uitvoering"
             ]
-          },
-          "status": {
-            "type": "string"
           },
           "start uitvoering": {
             "type": "string",
