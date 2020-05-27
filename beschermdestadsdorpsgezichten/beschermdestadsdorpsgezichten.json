@@ -18,11 +18,20 @@
   },
   "accrualPeriodicity": "wekelijks",
   "spatialDescription": "Gemeente Amsterdam",
-  "theme": ["Wonen", "Duurzaamheid en milieu", "Ruimte en Topografie"],
+  "theme": [
+    "Wonen",
+    "Duurzaamheid en milieu",
+    "Ruimte en Topografie"
+  ],
   "publisher": "OIS",
   "owner": "Gemeente Amsterdam, Stadswerken",
-  "authorizationGrantor": "Deze gegevensset wordt onderhouden voor uitvoering van taken betreffende de beschermde stads en dorpsgezichten.",
-  "keywords": ["Stadsgezicht", "Dorpsgezicht", "Gezicht", "Beschermd"],
+  "authorizationGrantor": "Deze gegevensset wordt onderhouden voor uitvoering van taken betreffende de beschermde stads- en dorpsgezichten.",
+  "keywords": [
+    "Stadsgezicht",
+    "Dorpsgezicht",
+    "Gezicht",
+    "Beschermd"
+  ],
   "hasBeginning": "2020-04-08T00:00:00",
   "crs": "EPSG:28992",
   "tables": [
@@ -31,7 +40,10 @@
       "type": "table",
       "title": "Beschermde stads- en dorpsgezichten",
       "schema": {
-        "required": ["id", "schema"],
+        "required": [
+          "id",
+          "schema"
+        ],
         "display": "naam",
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
@@ -49,14 +61,14 @@
             "type": "string",
             "description": "De status van het beschermde stads- of dorpgezicht"
           },
-          "begingeldigheid": {
+          "aanwijzingsdatum": {
             "type": "string",
-            "description": "De begindatum van de geldigheid van de beschermde status",
+            "description": "Datum waarop het gebied is aangewezen als beschermd stads- of dorpsgezicht",
             "format": "date"
           },
-          "eindgeldigheid": {
+          "intrekkingsdatum": {
             "type": "string",
-            "description": "De einddatum van de geldigheid van de beschermde status",
+            "description": "Datum waarop de beschermde status van het stads- of dorpsgezicht is ingetrokken",
             "format": "date"
           },
           "geometry": {
