@@ -71,6 +71,10 @@
                   "type": "string",
                   "description": ""
                 },
+                "e type description": {
+                  "type": "string",
+                  "description": ""
+                },
                 "aantal": {
                   "type": "number",
                   "description": ""
