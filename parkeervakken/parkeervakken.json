@@ -1,6 +1,7 @@
 {
   "id": "parkeervakken",
   "type": "dataset",
+  "status": "beschikbaar",
   "title": "",
   "version": "0.0.1",
   "crs": "EPSG:28992",
