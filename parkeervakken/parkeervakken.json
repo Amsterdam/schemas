@@ -1,6 +1,7 @@
 {
   "id": "parkeervakken",
   "type": "dataset",
+  "status": "beschikbaar",
   "title": "",
   "version": "0.0.1",
   "crs": "EPSG:28992",
@@ -12,6 +13,13 @@
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
         "additionalProperties": false,
+        "additionalFilters": {
+          "regimes.inWerkingOp": {
+            "type": "range",
+            "start": "regimes.begin tijd",
+            "end": "regimes.eind tijd"
+          }
+        },
         "required": [
           "id",
           "schema"
@@ -61,6 +69,10 @@
                   "description": ""
                 },
                 "e type": {
+                  "type": "string",
+                  "description": ""
+                },
+                "e type description": {
                   "type": "string",
                   "description": ""
                 },
