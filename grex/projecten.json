@@ -29,9 +29,6 @@
           "plannaam": {
             "type": "string"
           },
-          "planbeheercode": {
-            "type": "string"
-          },
           "startdatum": {
             "type": "string",
             "format": "date"
