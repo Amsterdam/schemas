@@ -10,7 +10,7 @@
     "version_field_name": "volgnummer",
     "pk_field_name": "identificatie",
     "temporal": {
-      "geldigOp": ["begin_geldigheid", "eind_geldigheid"]
+      "geldigOp": ["begin geldigheid", "eind geldigheid"]
     }
   },
   "tables": [
