@@ -5,6 +5,14 @@
   "status": "beschikbaar",
   "version": "0.0.1",
   "crs": "EPSG:28992",
+  "versioning": {
+    "request_parameter": "versie",
+    "version_field_name": "volgnummer",
+    "pk_field_name": "identificatie",
+    "temporal": {
+      "geldigOp": ["begin_geldigheid", "eind_geldigheid"]
+    }
+  },
   "tables": [
     {
       "id": "bouwblok",
