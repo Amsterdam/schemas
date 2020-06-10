@@ -26,20 +26,25 @@
           "geometry": {
             "$ref": "https://geojson.org/schema/Geometry.json"
           },
-          "gebcode": {
-            "type": "string"
+          "gebiedscode": {
+            "type": "string",
+            "provenance": "gebcode"
           },
-          "gebnaam": {
-            "type": "string"
+          "gebiedsnaam": {
+            "type": "string",
+            "provenance": "gebnaam"
           },
           "code": {
             "type": "string"
           },
-          "oppha": {
-            "type": "number"
+          "oppervlakte": {
+            "type": "number",
+            "provenance": "oppha",
+            "unit": "har"
           },
-          "codewg": {
-            "type": "string"
+          "winkelgebiedcode": {
+            "type": "string",
+            "provenance": "codewg"
           },
           "concgebied": {
             "type": "string"
