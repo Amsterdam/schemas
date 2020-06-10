@@ -37,8 +37,10 @@
           "code": {
             "type": "string"
           },
-          "oppha": {
-            "type": "number"
+          "oppervlakte": {
+            "type": "number",
+            "provenance": "oppha",
+            "unit": "har"
           },
           "winkelgebiedcode": {
             "type": "string",
