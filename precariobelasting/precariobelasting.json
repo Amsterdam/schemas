@@ -93,7 +93,7 @@
           "categorie": {
             "type": "string",
             "enum": [
-              "Be­drijfs­vaar­tuig en sta­ti­o­ne­ren­de vaar­tui­gen (ta­rief ex­clu­sief om­zet­be­las­ting)"
+              "Bedrijfsvaartuig en stationerende vaartuigen (tarief exclusief omzetbelasting)"
             ]
           },
           "jaar": {
@@ -141,7 +141,7 @@
           "categorie": {
             "type": "string",
             "enum": [
-              "Pas­sa­giers­vaar­tui­gen (ta­rief ex­clu­sief om­zet­be­las­ting)"
+              "Passagiersvaartuigen (tarief exclusief omzetbelasting)"
             ]
           },
           "jaar": {
@@ -188,7 +188,7 @@
           },
           "categorie": {
             "type": "string",
-            "enum": ["Woon­sche­pen, vlot­ten en aan­ho­rig­he­den"]
+            "enum": ["Woonschepen, vlotten en aanhorigheden"]
           },
           "jaar": {
             "type": "number",
