@@ -5,11 +5,10 @@
   "status": "beschikbaar",
   "version": "0.0.1",
   "crs": "EPSG:28992",
-  "versioning": {
-    "request_parameter": "versie",
-    "version_field_name": "volgnummer",
-    "pk_field_name": "identificatie",
-    "temporal": {
+  "identifier": "identificatie",
+  "temporal": {
+    "identifier": "volgnummer",
+    "dimensions": {
       "geldigOp": ["begin geldigheid", "eind geldigheid"]
     }
   },
