@@ -1,0 +1,193 @@
+{
+  "type": "dataset",
+  "id": "precariobelasting",
+  "title": "precariobelasting",
+  "status": "beschikbaar",
+  "description": "precariobelasting",
+  "version": "0.0.1",
+  "crs": "EPSG:28992",
+  "tables": [
+    {
+      "id": "terrassen",
+      "type": "table",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["schema", "id"],
+        "display": "id",
+        "properties": {
+          "schema": {
+            "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+          },
+          "id": {
+            "type": "integer",
+            "description": "technische identificatie"
+          },
+          "geometry": {
+            "$ref": "https://geojson.org/schema/Geometry.json",
+            "description": "polygoon percariobelastinggebied"
+          },
+          "categorie": {
+            "type": "string",
+            "description": "categorie percariobelasting"
+          },
+          "jaar": {
+            "type": "string",
+            "description": "publicatie jaar percariobelasting"
+          },
+          "stadsdeel": {
+            "type": "string",
+            "description": "stadsdeel waarop tarieven van toepassing zijn"
+          },
+          "gebied": {
+            "type": "number",
+            "description": "percariobelastinggebied"
+          },
+          "tariefOverdektTerrasPerJaar": {
+            "type": "string",
+            "provenance": "overdektTerrasPerJaar"
+          },
+          "tariefOnoverdektTerrasPerZomerseizoen": {
+            "type": "string",
+            "provenance": "onoverdektTerrasPerZomerseizoen"
+          },
+          "tariefOnoverdektTerrasPerWinterseizoen": {
+            "type": "string",
+            "provenance": "onoverdektTerrasPerWinterseizoen"
+          }
+        }
+      }
+    },
+    {
+      "id": "bedrijfsvaartuigen",
+      "type": "table",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["schema", "id"],
+        "display": "id",
+        "properties": {
+          "schema": {
+            "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+          },
+          "id": {
+            "type": "integer",
+            "description": "technische identificatie"
+          },
+          "geometry": {
+            "$ref": "https://geojson.org/schema/Geometry.json",
+            "description": "polygoon percariobelastinggebied"
+          },
+          "categorie": {
+            "type": "string",
+            "description": "categorie percariobelasting"
+          },
+          "jaar": {
+            "type": "string",
+            "description": "publicatie jaar percariobelasting"
+          },
+          "stadsdeel": {
+            "type": "string",
+            "description": "stadsdeel waarop tarieven van toepassing zijn"
+          },
+          "gebied": {
+            "type": "number",
+            "description": "percariobelastinggebied"
+          },
+          "tariefPerJaarPerM2": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "id": "passagiersvaartuigen",
+      "type": "table",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["schema", "id"],
+        "display": "id",
+        "properties": {
+          "schema": {
+            "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+          },
+          "id": {
+            "type": "integer",
+            "description": "technische identificatie"
+          },
+          "geometry": {
+            "$ref": "https://geojson.org/schema/Geometry.json",
+            "description": "polygoon percariobelastinggebied"
+          },
+          "categorie": {
+            "type": "string",
+            "description": "categorie percariobelasting"
+          },
+          "jaar": {
+            "type": "string",
+            "description": "publicatie jaar percariobelasting"
+          },
+          "stadsdeel": {
+            "type": "string",
+            "description": "stadsdeel waarop tarieven van toepassing zijn"
+          },
+          "gebied": {
+            "type": "number",
+            "description": "percariobelastinggebied"
+          },
+          "tariefPerJaarPerM2": {
+            "type": "string",
+            "description": "tarief exclusief omzetbelasting"
+          }
+        }
+      }
+    },
+    {
+      "id": "woonschepen",
+      "type": "table",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["schema", "id"],
+        "display": "id",
+        "properties": {
+          "schema": {
+            "$ref": "https://schemas.data.amsterdam.nl/schema@v1.1.1#/definitions/schema"
+          },
+          "id": {
+            "type": "integer",
+            "description": "technische identificatie"
+          },
+          "geometry": {
+            "$ref": "https://geojson.org/schema/Geometry.json",
+            "description": "polygoon percariobelastinggebied"
+          },
+          "categorie": {
+            "type": "string",
+            "description": "categorie percariobelasting"
+          },
+          "jaar": {
+            "type": "string",
+            "description": "publicatie jaar percariobelasting"
+          },
+          "stadsdeel": {
+            "type": "string",
+            "description": "stadsdeel waarop tarieven van toepassing zijn"
+          },
+          "gebied": {
+            "type": "number",
+            "description": "percariobelastinggebied"
+          },
+          "tariefPerJaarPerM2": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}
