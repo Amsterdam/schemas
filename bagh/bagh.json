@@ -9,7 +9,7 @@
   "temporal": {
     "identifier": "volgnummer",
     "dimensions": {
-      "geldigOp": ["begin geldigheid", "eind geldigheid"]
+      "geldigOp": ["beginGeldigheid", "eindGeldigheid"]
     }
   },
   "tables": [
@@ -46,11 +46,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -100,11 +100,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -131,7 +131,7 @@
             "type": "string",
             "relation": "bagh:wijk"
           },
-          "ggw gebied": {
+          "ggwGebied": {
             "type": "string",
             "relation": "bagh:ggw_gebied"
           },
@@ -174,11 +174,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -225,11 +225,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -289,11 +289,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -332,7 +332,7 @@
           "id",
           "identificatie",
           "volgnummer",
-          "hoofdadres id",
+          "hoofdadresId",
           "status",
           "buurt"
         ],
@@ -354,11 +354,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginBeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -369,13 +369,13 @@
           "documentnummer": {
             "type": "string"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
             "type": "boolean"
           },
-          "hoofdadres id": {
+          "hoofdadresId": {
             "type": "string"
           },
           "geometrie": {
@@ -423,11 +423,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -438,7 +438,7 @@
           "documentnummer": {
             "type": "string"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
@@ -450,13 +450,13 @@
           "huisletter": {
             "type": "string"
           },
-          "huisnummer toevoeging": {
+          "huisnummerToevoeging": {
             "type": "string"
           },
           "postcode": {
             "type": "string"
           },
-          "openbare ruimte": {
+          "openbareRuimte": {
             "type": "string",
             "relation": "bagh:openbare_ruimte"
           },
@@ -494,7 +494,7 @@
           "identificatie",
           "volgnummer",
           "naam",
-          "naam nen",
+          "naamNen",
           "status"
         ],
         "display": "id",
@@ -515,15 +515,15 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
@@ -532,7 +532,7 @@
           "naam": {
             "type": "string"
           },
-          "naam nen": {
+          "naamNen": {
             "type": "string"
           },
           "type": {
@@ -590,11 +590,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -605,7 +605,7 @@
           "documentnummer": {
             "type": "string"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
@@ -623,16 +623,16 @@
           "ligging": {
             "type": "string"
           },
-          "type woonobject": {
+          "typeWoonobject": {
             "type": "string"
           },
-          "aantal bouwlagen": {
+          "aantalBouwlagen": {
             "type": "integer"
           },
-          "laagste bouwlaag": {
+          "laagsteBouwlaag": {
             "type": "integer"
           },
-          "hoogste bouwlaag": {
+          "hoogsteBouwlaag": {
             "type": "integer"
           },
           "geometrie": {
@@ -677,18 +677,18 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
           "geometrie": {
             "$ref": "https://geojson.org/schema/MultiPolygon.json"
           },
-          "date modified": {
+          "dateModified": {
             "type": "string",
             "format": "date-time"
           },
@@ -708,7 +708,7 @@
           "vervallen": {
             "type": "boolean"
           },
-          "ingang cyclus": {
+          "ingangCyclus": {
             "type": "string",
             "format": "date"
           },
@@ -731,7 +731,7 @@
           "id",
           "identificatie",
           "volgnummer",
-          "hoofdadres id",
+          "hoofdadresId",
           "status"
         ],
         "display": "id",
@@ -752,11 +752,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -767,13 +767,13 @@
           "documentnummer": {
             "type": "string"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
             "type": "boolean"
           },
-          "hoofdadres id": {
+          "hoofdadresId": {
             "type": "string"
           },
           "geometrie": {
@@ -823,11 +823,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -838,16 +838,16 @@
           "documentnummer": {
             "type": "string"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
             "type": "boolean"
           },
-          "heeftin hoofdadres id": {
+          "heeftinHoofdadresId": {
             "type": "string"
           },
-          "heeftin nevenadres id": {
+          "heeftinNevenadresId": {
             "type": "array",
             "items": {
               "type": "string"
@@ -862,31 +862,31 @@
           "status": {
             "type": "string"
           },
-          "verdieping toegang": {
+          "verdiepingToegang": {
             "type": "integer"
           },
-          "aantal eenheden complex": {
+          "aantalEenhedenComplex": {
             "type": "integer"
           },
-          "aantal bouwlagen": {
+          "aantalBouwlagen": {
             "type": "integer"
           },
-          "hoogste bouwlaag": {
+          "hoogsteBouwlaag": {
             "type": "integer"
           },
-          "laagste bouwlaag": {
+          "laagsteBouwlaag": {
             "type": "integer"
           },
-          "aantal kamers": {
+          "aantalKamers": {
             "type": "integer"
           },
           "eigendomsverhouding": {
             "type": "string"
           },
-          "gebruiksdoel gezondheidszorgfunctie": {
+          "gebruiksdoelGezondheidszorgfunctie": {
             "type": "string"
           },
-          "gebruiksdoel woonfunctie": {
+          "gebruiksdoelWoonfunctie": {
             "type": "string"
           },
           "gebruik": {
@@ -983,11 +983,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
@@ -1004,13 +1004,13 @@
           "documentnummer": {
             "type": "string"
           },
-          "cbs code": {
+          "cbsCode": {
             "type": "string"
           },
           "geometrie": {
             "$ref": "https://geojson.org/schema/MultiPolygon.json"
           },
-          "ggw gebied": {
+          "ggwGebied": {
             "type": "string",
             "relation": "bagh:ggw_gebied"
           },
@@ -1054,15 +1054,15 @@
             "type": "string",
             "format": "date-time"
           },
-          "begin geldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "eind geldigheid": {
+          "eindGeldigheid": {
             "type": "string",
             "format": "date"
           },
-          "aanduiding in onderzoek": {
+          "aanduidingInOnderzoek": {
             "type": "boolean"
           },
           "geconstateerd": {
