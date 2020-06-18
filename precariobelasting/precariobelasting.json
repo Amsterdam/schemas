@@ -44,24 +44,21 @@
             "description": "Precariobelastinggebied"
           },
           "tariefOverdektTerrasPerJaarPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte terrass",
             "provenance": "overdektTerrasPerJaar"
           },
           "tariefOnoverdektTerrasPerZomerseizoenPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte terrass",
             "provenance": "onoverdektTerrasPerZomerseizoen"
           },
           "tariefOnoverdektTerrasPerWinterseizoenPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte terrass",
@@ -109,8 +106,7 @@
             "description": "Precariobelastinggebied"
           },
           "tariefPerJaarPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte voortuig"
@@ -140,9 +136,7 @@
           },
           "categorie": {
             "type": "string",
-            "enum": [
-              "Passagiersvaartuigen (tarief exclusief omzetbelasting)"
-            ]
+            "enum": ["Passagiersvaartuigen (tarief exclusief omzetbelasting)"]
           },
           "jaar": {
             "type": "number",
@@ -157,8 +151,7 @@
             "description": "Precariobelastinggebied"
           },
           "tariefPerJaarPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte voortuig"
@@ -203,8 +196,7 @@
             "description": "Precariobelastinggebied"
           },
           "tariefPerJaarPerM2": {
-            "type": "number",
-            "multipleOf": 0.01,
+            "type": "string",
             "unit": "{EUR}/a/m2",
             "title": "Tarief",
             "description": "Tarief in Euro per jaar per vierkante meter oppervlakte voortuig"
