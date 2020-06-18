@@ -65,7 +65,7 @@
           "categorie": {
             "type": "string"
           },
-          "categorie naam": {
+          "categorienaam": {
             "type": "string"
           }
         }
