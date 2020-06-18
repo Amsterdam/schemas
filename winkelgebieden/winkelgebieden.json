@@ -46,17 +46,21 @@
             "type": "string",
             "provenance": "codewg"
           },
-          "concgebied": {
-            "type": "string"
+          "concentratiegebiedcode": {
+            "type": "string",
+            "provenance": "concgebied"
           },
-          "concnaam": {
-            "type": "string"
+          "concentratiegebiednaam": {
+            "type": "string",
+            "provenance": "concnaam"
           },
-          "bc2015": {
-            "type": "string"
+          "wijk": {
+            "type": "string",
+            "provenance": "bc2015"
           },
-          "geb22": {
-            "type": "string"
+          "gebied": {
+            "type": "string",
+            "provenance": "geb22"
           },
           "categorie": {
             "type": "string"
