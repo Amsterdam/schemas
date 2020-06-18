@@ -138,10 +138,6 @@
             "type": "number",
             "title": "Jaar van publicatie"
           },
-          "stadsdeel": {
-            "type": "string",
-            "description": "Stadsdeel waarop tarieven van toepassing zijn"
-          },
           "gebied": {
             "type": "string",
             "description": "Precariobelastinggebied"
