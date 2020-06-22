@@ -70,51 +70,6 @@
           "oTijdenTerrasVrZaTot": {
             "type": "string"
           },
-          "verlengingSluitingstijd1": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd2": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd3": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd4": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd5": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd6": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd7": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd8": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd9": {
-            "type": "number"
-          },
-          "verlengingSluitingstijd10": {
-            "type": "number"
-          },
-          "ontheffingGeluidsvoorschr1": {
-            "type": "number"
-          },
-          "ontheffingGeluidsvoorschr2": {
-            "type": "number"
-          },
-          "ontheffingGeluidsvoorschr3": {
-            "type": "number"
-          },
-          "ontheffingGeluidsvoorschr4": {
-            "type": "number"
-          },
-          "ontheffingGeluidsvoorschr5": {
-            "type": "number"
-          },
           "locatie": {
             "$ref": "https://geojson.org/schema/Point.json"
           },
@@ -134,6 +89,9 @@
             "type": "string"
           },
           "publBesluitTijdelijkTerras": {
+            "type": "string"
+          },
+          "tijdelijkTerrasDetails": {
             "type": "string"
           }
         }
