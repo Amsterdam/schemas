@@ -101,6 +101,10 @@
             "type": "string",
             "description": "Stadsdeel waarop tarieven van toepassing zijn"
           },
+          "gebied": {
+            "type": "string",
+            "description": "Precariobelastinggebied"
+          },
           "tariefPerJaarPerM2": {
             "type": "string",
             "unit": "{EUR}/a/m2",
@@ -182,6 +186,10 @@
           "stadsdeel": {
             "type": "string",
             "description": "Stadsdeel waarop tarieven van toepassing zijn"
+          },
+          "gebied": {
+            "type": "string",
+            "description": "Precariobelastinggebied"
           },
           "tariefPerJaarPerM2": {
             "type": "string",
