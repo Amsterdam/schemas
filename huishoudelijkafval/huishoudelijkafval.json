@@ -63,7 +63,7 @@
           },
           "cluster": {
             "type": "string",
-            "relation": "afv api:cluster",
+            "relation": "afvApi:cluster",
             "description": "Uniek identificerend kenmerk van cluster waaraan de container is gerelateerd"
           },
           "containerEigenaarId": {
@@ -127,7 +127,7 @@
           },
           "containerlocatie": {
             "type": "integer",
-            "relation": "afv api:containerlocatie",
+            "relation": "afvApi:containerlocatie",
             "description": "Identificerend kenmerk van de put waarin de container is geplaatst"
           },
           "containerGeometrie": {
@@ -144,7 +144,7 @@
           },
           "containertype": {
             "type": "string",
-            "relation": "afv api:container type",
+            "relation": "afvApi:container type",
             "description": "Identificerend kenmerk van het containertype"
           },
           "gbdBuurtVolledigecode": {
@@ -420,7 +420,7 @@
           },
           "clusterFractieAantal": {
             "type": "integer",
-            "relation": "afv api:cluster fractie",
+            "relation": "afvApi:clusterFractie",
             "description": "Lijst met voorkomende afvalfracties van het cluster"
           },
           "clusterVolumeM3": {
