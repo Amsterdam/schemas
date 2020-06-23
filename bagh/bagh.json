@@ -414,7 +414,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "beginBeldigheid": {
+          "beginGeldigheid": {
             "type": "string",
             "format": "date"
           },
